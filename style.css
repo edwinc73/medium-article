@@ -31,7 +31,7 @@ header {
 
 .container{
   width: 700px;
-  margin: 50px auto
+  margin: 50px auto;
 }
 
 .large{
@@ -58,4 +58,22 @@ a{
 
 .hover:hover{
   background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+@media(max-width: 992px) {
+  .container{
+    width: 500px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container{
+    width: 400px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container{
+    width: 350px;
+  }
 }
